@@ -49,8 +49,8 @@ export default function Home() {
         <Box>
           <Container maxW="container.sm" py="1rem" fontSize="xl">
             <Text>
-              Tveka inte att kontakta oss via vår Facebook-sida om du har några
-              frågor, vill engagera dig i föreningen eller om du är en
+              Tveka inte att kontakta oss via vår mail om du har några frågor,
+              vill engagera dig i föreningen eller om du är en
               studentorganisation som vill samarbeta med oss. Tillsammans kan vi
               fortsätta att göra Lunds studentliv ännu mer tillgängligt och
               spännande för alla!
