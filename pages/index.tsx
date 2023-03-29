@@ -1,6 +1,7 @@
-import { Box, Container, Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Container, Heading, VStack } from "@chakra-ui/react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
+import Description from "@/components/Desciption";
 
 export default function Home() {
   return (
@@ -15,25 +16,25 @@ export default function Home() {
       <Layout>
         <Box bg="primary.500">
           <Container maxW="container.xl">
-            <VStack
-              h="calc(100vh - 3rem)"
-              display="flex"
-              justifyContent="center"
-              justifyItems="center"
-              textAlign="center"
-            >
-              <Heading
-                as="h1"
-                fontSize={["8xl", "9xl"]}
-                color="accent.500"
-                letterSpacing="0.2rem"
+            <Box py={8} px={{ base: 0, sm: 8 }}>
+              <VStack
+                display="flex"
+                justifyContent="center"
+                justifyItems="center"
+                textAlign="center"
               >
-                LABB
-              </Heading>
-              <Text color="accent.500" fontSize="2xl">
-                kommer snart
-              </Text>
-            </VStack>
+                <Heading
+                  as="h1"
+                  fontSize={["8xl", "9xl"]}
+                  color="accent.500"
+                  letterSpacing="0.2rem"
+                  py={32}
+                >
+                  LABB
+                </Heading>
+                <Description />
+              </VStack>
+            </Box>
           </Container>
         </Box>
       </Layout>
