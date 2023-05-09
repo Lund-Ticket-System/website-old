@@ -11,6 +11,7 @@ export default function Navbar() {
         </Link>
         <HStack spacing="1rem">
           <Link href="/kontakta-oss">Kontakta oss</Link>
+          <Link href="/integritetspolicy">Integritetspolicy</Link>
         </HStack>
       </HStack>
     </Container>
