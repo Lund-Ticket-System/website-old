@@ -54,8 +54,10 @@ const PrivacyPolicy = () => (
               <Text>
                 Personal Information: When you create an account with us, we
                 collect your name and email address. If you purchase a ticket
-                through our Services, we collect your payment information, which
-                may include your credit card number and billing address.
+                through our Services, our payment provider (Stripe) collect your
+                payment information, which may include your credit card number
+                and billing address. But you will be asked, if you want to save
+                it.
               </Text>
               <Text>
                 Usage Information: We collect information about how you use our
