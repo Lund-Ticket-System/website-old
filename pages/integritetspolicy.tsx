@@ -26,7 +26,7 @@ const PrivacyPolicy = () => (
           >
             <Heading
               as="h1"
-              fontSize={["6xl", "7xl"]}
+              fontSize={["3xl", "6xl", "7xl"]}
               color="accent.500"
               letterSpacing="0.2rem"
             >
