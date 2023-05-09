@@ -1,8 +1,6 @@
 import { Box, Container, Heading, Text, VStack } from "@chakra-ui/react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
-import Link from "next/link";
-import { MdMail } from "react-icons/md";
 
 export default function PrivacyPolicy() {
   return (
